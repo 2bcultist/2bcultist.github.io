@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.is_overlay{ display: block; width: auto; height: auto;}
+
+#trailer {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	overflow: hidden;
+}
+
+#trailer > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+#body1{background: #000000}
+
+.titlePage{
+	
+	color: #BF1717;
+	position: absolute;
+	font-family: "2bdont";
+	font-size: 48;
+	margin-top: 90;
+	margin-left: 50;
+	font-weight: 300;
+	
+	
+}
+
+@font-face{
+	font-family: "2bdont";
+	src:url("sh/Exodus-PersonalUse-Striped.otf");
+	font-weight: normal;
+	font-style: normal;
+	}
